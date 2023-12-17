@@ -9,6 +9,8 @@ public class JavaLoopsI {
 
     public static void main(String[] args) throws Exception {
 
+        System.out.println("Lütfen bir 2-20 kapalı aralığında bir sayı giriniz:");
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());
